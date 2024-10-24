@@ -42,3 +42,90 @@ type TaskType = {
     setFilter: (filter: string) => void
 }
 */
+
+
+
+const x = (name: string, age?: number): void => {
+    console.log(name)
+    console.log(age)
+}
+
+function xx(name: string, age?: number): void {
+    console.log(name)
+    console.log(age)
+}
+
+x('Nikita', 16)
+x('Dima')
+
+const y = (somePar: any): any => {
+    console.log(somePar)
+    return somePar
+}
+function yy(somePar: any): any {
+    console.log(somePar)
+    return somePar
+}
+
+const z = y(99)
+console.log(z)
+
+interface IList {
+    data: number[];
+    isOpen: boolean;
+    setIsOpen: (isOpen: boolean) => void;
+    getData: (data: number[]) => number[]
+}
+
+const list: IList = {
+    data: [1, 2, 3, 4, 5,],
+    isOpen: false,
+    setIsOpen(isOpen: boolean) {
+        this.isOpen = isOpen
+    },
+    getData(data: number[]) {
+        return data
+    },
+}
+
+
+
+
+interface IUser {
+    name: string;
+    age: number;
+    sayHello: (name: string) => void;
+    isAdult: (age: number) => boolean;
+}
+
+const user: IUser = {
+    name: "Nikita",
+    age: 15,
+    sayHello(name: string) {
+        console.log(`Hello ${name}`)
+    },
+    isAdult(age: number) {
+        console.log('no')
+        return false
+    }
+}
+
+type TaskType = {
+    id: string;
+    filter: string;
+    isDone: boolean;
+    seiIsDOne: () => void
+    setFilter: (filter: string) => void
+}
+
+const task: TaskType = {
+    id: 'a',
+    filter: 'done',
+    isDone: true,
+    seiIsDOne() {
+        this.isDone = true
+    },
+    setFilter(filter: string) {
+        console.log(filter)
+    }
+}
