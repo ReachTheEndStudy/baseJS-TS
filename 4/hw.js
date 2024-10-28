@@ -30,10 +30,9 @@
 
 const testArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 */
-const testArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+var testArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // Создать функцию, которая на вход принимает массив чисел.
 // Необходимо вывести в консоль каждое четное число
-
 // const consoleEveryEvenNumber = (arr: number[]): void => {
 //     for (let i = 0; i < arr.length; i++) {
 //         if (arr[i] % 2 === 0) {
@@ -42,13 +41,10 @@ const testArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 //     }
 // }
 // consoleEveryEvenNumber(testArr)
-
 // Создать функцию, которая на вход принимает массив чисел.
 // Необходимо вернуть самое большое число
-
 // const getMaxNumberFromArray = (arr: number[]): number =>{
 //     let max = arr[0]
-
 //     for(let i = 1; i <arr.length; i++) {
 //         if (max < arr[i]) {
 //             max = arr[i]
@@ -57,12 +53,9 @@ const testArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 //     return max
 // }
 // console.log(getMaxNumberFromArray(testArr))
-
-
 // Создать функцию, которая на вход принимает массив чисел длинной минимум 8 элементов.
 // Необходимо вывести в консоль каждое четное число, кроме третьего и пятого.
 // Сделать две реализации с if и с continue.
-
 // const consoleEveryEvenNumber = (arr: number[]): void => {
 //     for (let i = 0; i < arr.length; i++) {
 //         if (i === 2) {
@@ -73,16 +66,12 @@ const testArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 //             if (arr[i] % 2 === 0) {
 //                 console.log(arr[i])
 //             }
-
-
 //     }
 // }
 // consoleEveryEvenNumber(testArr)
-
 // Создать функцию, которая на вход принимает массив чисел длинной минимум 8 элементов.
 // Необходимо вывести в консоль все числа до пятой ячейки.
 // Сделать две реализации с if, с break.
-
 // const consoleEveryNumberWithoutMoreThanFiveIndex = (arr: number[]): void => {
 //     for (let i = 0; i < arr.length; i++) {
 //         if (i >= 5) {
@@ -92,16 +81,13 @@ const testArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 //     }
 // }
 // consoleEveryNumberWithoutMoreThanFiveIndex(testArr)
-
-
 // 5. Создать функцию, которая на вход принимает массив чисел.
 // Необходимо вернуть сумму чисел массива
-
-const sumArray = (arr: number[]): number => {
-    let sum = arr[0]
-    for (let i = 1; i < arr.length; i++) {
-        sum = sum + arr[i]
+var sumArray = function (arr) {
+    var sum = arr[0];
+    for (var i = 1; i < arr.length; i++) {
+        sum = sum + arr[i];
     }
-    return sum
-}
-console.log(sumArray(testArr))
+    return sum;
+};
+console.log(sumArray(testArr));
