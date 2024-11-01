@@ -129,8 +129,8 @@
 
 // Array.includes() - determines whether an array includes a certain value among its entries
 // return boolean
-const a = [1, 2, 3, 4, 2, 6, 2]
-const b = a.includes(2)
-const c = a.includes(9)
-console.log(b)
-console.log(c)
+// const a = [1, 2, 3, 4, 2, 6, 2]
+// const b = a.includes(2)
+// const c = a.includes(9)
+// console.log(b)
+// console.log(c)
