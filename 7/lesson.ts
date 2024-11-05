@@ -1,5 +1,10 @@
+// array
+
 // Array.indexOf() - returns the first index at which a given element can be found in the array
 // return index of element or -1
+// const a = [1, 2, 3, 4, 5, 6, 7]
+// console.log(a.indexOf(2))
+// console.log(a.indexOf(100))
 
 // Array.concat() -  merge two or more arrays
 // return new array
@@ -19,7 +24,7 @@
 // Array.reverse() - reverses an array in place
 // return link to primary array
 // const a = [1, 2, 3, 4, 2, 6, 2]
-// const b = a.reverse()
+// const b = a.reverse() // b = a
 // console.log('a', a)
 // console.log('b', b)
 // console.log('a===b', a===b)
@@ -37,17 +42,18 @@
 // return link to primary array
 // const a = [1, 2, 3, 4, 2, 6, 2]
 // const b = a.sort((first, second) => {
-//     if (first < second) {
-//         return -1
-//     } else if (first > second) {
-//         return 1
-//     }
-// first === second
-// return 0
-// if first-second < 0 first will have less index than second
-// if first-second === 0 do nothing
-// if first-second > 0 second will have less index than first
-// return first - second
+    // if (first < second) {
+    //     return -1
+    // } else if (first > second) {
+    //     return 1
+    // } 
+    // first === second
+    // return 0
+    // if first-second < 0 first will have less index than second
+    // if first-second === 0 do nothing
+    // if first-second > 0 second will have less index than first
+
+//     return second - first
 // })
 // console.log('a', a)
 // console.log('b', b)
@@ -71,6 +77,7 @@
 // console.log('b', b)
 // const c = a.slice(2, 5)
 // console.log('c', c)
+// console.log('a', a)
 
 // Array.splice() - changes array by removing or replacing existing elements and/or
 // adding new elements in place
@@ -133,6 +140,7 @@
 
 // Array.with() - change the value of a given index
 // return new array
+
 // const a = [1, 2, 3, 4, 5, 6, 7]
 // const b = a.with(3, null)
 // const c = a.with(-2, undefined)
@@ -142,9 +150,10 @@
 
 // Array.reduce() - do function once for each array element by order with some accumulator
 // return accumulator
-// const initValue = 100
-// const a = [1, 2, 3]
+const initValue = 100
+const a = [1, 2, 3]
 // const b = a.reduce((accumulator, currentValue, currentIndex, array)=>{
+//     debugger
 //     return accumulator+currentValue
 // }, initValue)
 // console.log(b)
@@ -157,5 +166,7 @@
 //     return accumulator.concat([currentValue])
 // }, [])
 // console.log(d)
+// console.log(a === d)
 
 // Array.reduceRight() - the same as Array.indexOf() but work from left to right
+// return accumulator

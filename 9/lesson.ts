@@ -1,0 +1,15 @@
+// string
+
+// String.at()
+// String.charAt()
+// String.charCodeAt()
+// String.fromCharCode()
+// String.codePointAt()
+// String.concat()
+// String.indexOf()
+// String.lastIndexOf()
+// String.padStart()
+// String.padEnd()
+// String.slice()
+// String.trimRight()
+// String.trimLeft()
