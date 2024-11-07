@@ -13,7 +13,7 @@
 3. https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/javascript
 4. https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/javascript
 5. https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/javascript
-6. https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript
+6. (добавлено по ошибке ) https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript
 7. https://www.codewars.com/kata/53af2b8861023f1d88000832/train/javascript
 8. https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
 9. https://www.codewars.com/kata/57eae65a4321032ce000002d/train/javascript

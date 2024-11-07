@@ -49,6 +49,7 @@
 // methods - functions
 
 // Array.at() - return element by index
+// return element
 // const a = [1, 2, 3, 4, 5, 6, 7]
 // console.log(a.at(1)) // a[1]
 // // get last element
