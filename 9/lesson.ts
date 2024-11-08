@@ -4,16 +4,16 @@
 // return letter or undefined
 // const a = 'Nikita'
 // console.log('-1', a.at(-1))
-// console.log('-2', a.at(2))
-// console.log('-20', a.at(20))
+// console.log('2', a.at(2))
+// console.log('20', a.at(20))
 
 // String.charAt() - return letter by index
 // return letter or empty string
 // const a = 'Nikita'
 // console.log('length - 1', a.charAt(a.length - 1))
 // console.log('-1', a.charAt(-1))
-// console.log('-2', a.charAt(2))
-// console.log('-20', a.charAt(20))
+// console.log('2', a.charAt(2))
+// console.log('20', a.charAt(20))
 
 // String.charCodeAt() - returns an integer between 0 and 65535
 // representing the UTF-16 code unit at the given index
@@ -27,7 +27,8 @@
 // the specified sequence of UTF-16 code units.
 // return string
 // console.log('(97, 65)', String.fromCharCode(97, 65))
-// console.log('(6500,8212, 3000)', String.fromCharCode(6500,8212, 3000))
+// console.log('(6500,8212, 3000)',
+//     String.fromCharCode(6500,8212, 3000))
 
 // String.indexOf() - searches this string and returns the index
 // of the first occurrence of the specified substring
@@ -62,8 +63,8 @@
 
 // String.slice() - extracts a section of this string
 // return string
-// const a = 'The quick brown fox jumps over the lazy dog.'
-// console.log('(31)', a.slice(31))
-// console.log('(4, 19)', a.slice(4, 19))
-// console.log('(-4)', a.slice(-4))
-// console.log('(-9, -5)', a.slice(-9, -5))
+const a = 'The quick brown fox jumps over the lazy dog.'
+console.log('(31)', a.slice(31))
+console.log('(4, 19)', a.slice(4, 19))
+console.log('(-4)', a.slice(-4))
+console.log('(-9, -5)', a.slice(-9, -5))
