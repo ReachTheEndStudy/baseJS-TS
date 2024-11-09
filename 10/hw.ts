@@ -1,11 +1,11 @@
 /*
 
 Теория:
-1. 
-2. 
-3. 
-4. 
-5. 
+1. https://learn.javascript.ru/type-conversions#chislennoe-preobrazovanie
+2. https://learn.javascript.ru/operators
+3. https://learn.javascript.ru/number
+4. https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number
+5. https://doka.guide/js/number/
 
 Практика: Решить задачи
 1. https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript
