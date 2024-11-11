@@ -16,7 +16,6 @@
 // console.log('undefined', +undefined)
 // console.log('boolean true', +true)
 // console.log('boolean false', +false)
-// console.log("Number('123') === Number('123dsa')", Number('123') === Number('123dsa'))
 
 
 // methods - functions
@@ -50,7 +49,8 @@
 // console.log("('10.12', 10)", parseInt('10.12', 10));
 
 
-// parseFloat()
+// parseFloat() - parses a string argument and returns a float
+// return number
 // console.log("('10.12')", parseFloat('10.12'));
 // console.log("('        10.12')", parseFloat('        10.12'));
 // console.log("('10.12         ')", parseFloat('10.12         '));
@@ -75,4 +75,6 @@
 // Number.isInteger() - determine whether the passed value is an integer
 // return boolean
 // const a = 12345.6789
+// const b = 12345
 // console.log(Number.isInteger(a))
+// console.log(Number.isInteger(b))
